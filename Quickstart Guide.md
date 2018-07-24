@@ -6,11 +6,16 @@ Send email from your app (such as laravel, wordpress ...), with SMTP and API. Wi
 
 ## Verify Domain
 
+To set up domain for sending, you should add it to your AvangEmail account, and verify that in some step. First of all domain should be accessible . With verify your domain, you will show that authorized sender,not show sent via avangemail.com, positive reputation for your domain.
 
-========= =========================================================== ==================== 
-Type      Value                                                       Purpose    
-========= =========================================================== ==================== 
-TXT       "v=spf1 include:mailgun.org ~all"                           SPF (Required)
-TXT       *Find this record in your Control Panel, Domains Tab*       DKIM (Required)
-CNAME     "mailgun.org"                                               Tracking (Optional)
-========= =========================================================== ====================
+### How to verify your domain
+
+You point DNS entries from your DNS provider (like Cpanel, Directadmin, Cloudflare, DigitalOcean , Rackspace or DNSSimple) to avangemail. 
+
+| Type  | Value                                                        | Purpose             |
+| ----- | ------------------------------------------------------------ | ------------------- |
+| TXT   | Find this record in your Control Panel, Domains Tab, this would be like: "v=spf1 a mx include:spf.avang.eu ~all" | SPF (Required)      |
+| TXT   | Find this record in your Control Panel                       | DKIM (Required)     |
+| CNAME | Find this record in your Control Panel, this would be like: point "psrp.yourdomain.com" to "rp.avang.eu" | Tracking (Optional) |
+
+You can set dns in all dns providers, but we listed a common providers.
