@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/avangemail/documentation/master/img/email-smtp.png)
+![](https://raw.githubusercontent.com/avangemail/documentation/master/img/email-smtp.gif)
 
 # Quickstart Guide 
 
