@@ -7,9 +7,3 @@ AvangEmail is an email marketing with simplicity approach for Startups. We think
  If you have more subscribers –  check out our [affordable price](https://avangemail.com/pricing)
 
 ![](https://raw.githubusercontent.com/avangemail/documentation/master/img/integrate.jpg)
-
-
-
-# documentation
-
-[PHP SDK](https://github.com/avangdev/avang-php)
