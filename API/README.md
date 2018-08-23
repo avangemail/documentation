@@ -195,10 +195,10 @@ API response is JSON formatted, AvangEmail uses standard HTTP response codes.
 
 | HTTP method | Endpoint                                                     | Function                                          |
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------- |
-| GET         | [transactional-emails/{EMAIL-UNIQUE-ID}](https://avangemail.net/api/lists) | Get a transactional email detail by the unique id |
+| GET         | [/transactional-emails/{EMAIL-UNIQUE-ID}](https://avangemail.net/api/lists) | Get a transactional email detail by the unique id |
 | GET         | [/transactional-emails](https://avangemail.net/api/lists)    | Get all transactional emails                      |
 | POST        | [/transactional-emails](https://avangemail.net/api/lists)    | Create a new transactional email                  |
-| DELETE      | [transactional-emails/{EMAIL-UNIQUE-ID}](https://avangemail.net/api/lists) | Delete a transactional email by the unique id     |
+| DELETE      | [/transactional-emails/{EMAIL-UNIQUE-ID}](https://avangemail.net/api/lists) | Delete a transactional email by the unique id     |
 
 ### Other
 
